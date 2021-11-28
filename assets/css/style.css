@@ -1,0 +1,163 @@
+.cuerpo{
+    color: #444444;
+    background: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-oscuro{
+    background: #444444;
+    color: #eeeeee;
+}
+
+.navbar a{
+    background: #444444;
+    padding: 0.5rem;
+}
+
+.navbar-brand{
+    color: #eeeeee;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.navbar-toggler{
+    border-style: none;
+}
+
+.cabecera{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    font-size: 3.25rem;
+}
+
+.divider{
+    width: 100%;
+    height: 0.5rem;
+    margin: 0.5rem 0 2rem 0;
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h2, h6{
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    font-size: 2rem;
+    text-align: right;
+    font-weight: bold;
+}
+
+.caja-galeria{
+    border-radius: 2px;
+}
+
+.btn-galeria{
+    border-style: solid;
+    border-color: #444444;
+    border-width: 1px;
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin: 1rem 0;
+    padding: 0.6rem 1rem;
+}
+
+footer{
+    margin-top: 1.75rem;
+}
+
+footer a{
+    color: #eeeeee;
+}
+
+.rrss:hover, .nav-link:hover, .btn-galeria:hover{
+    background: #12c2e9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: bold;
+    border-style: none;
+}
+
+@media (min-width: 768px){
+    .foto-leon{
+        width: 30%;
+    }
+
+    .sobre-mi-h3{
+        padding: 2rem 0;
+    }
+
+    .sobre-mi-h3:before{
+        content: "¿Tienes un proyecto web en mente?";
+    }
+
+    .sobre-mi-p1:before{
+        content: "Si estás aquí es porque necesitas ampliar el alcance de tu negocio, necesitas vender más, tener más clientes. Sé que estás buscando soluciones efectivas para tener presencia en internet donde todo está pasando,  pero te has encontrado con un sinfín de información, cursos de pago, e-books gratuitos y mucha, quizás demasiada información que te dejan con mas dudas que respuestas.";
+    }
+
+    .sobre-mi-p2:before{
+        content: "Sé que no es fácil. Pero lo bueno es que estás aquí.";
+    }
+
+    .sobre-mi-p3:before{
+        content: "Hola, soy Leon Sebastian y me encanta el desarrollo web y cómo se pueden crear herramientas poderosas que ayuden a las personas a encontrar lo que necesitan.";
+    }
+
+    .sobre-mi-p4:before{
+        content: "Actualmente soy estudiante de Academlo en su decime generación, dedicada y exclusivamente para aprender programación web desde lo mas básico hasta lo mas complejo, practico y de uso cotidiano, siempre a la vanguardia con las tecnologías mas usadas del mercado.";
+    }
+
+    .sobre-mi-p5:before{
+        content: "Sin contar que aprendemos con profesionales de primer nivel capacitados en cada área del desarrollo web para que nuestro aprendizaje vaya un nivel mas alto que el estándar habitual.";
+    }
+
+    .sobre-mi-p6:before{
+        content: "Además contamos con una comunidad entre estudiantes, alumnos de otras generaciones y profesores que motivan y enriquecen el trabajo grupal de cada alumno, para que al integrarse a un equipo de trabajo sea lo mas eficiente posible.";
+    }
+
+    .sobre-mi-img{
+        margin-top: 2rem;
+        padding-top: 2rem;
+    }
+
+}
+
+@media (max-width: 768px){
+    .foto-leon{
+        width: 30%;
+    }
+
+    .sobre-mi-h3{
+        padding: 2rem 0;
+    }
+
+    .sobre-mi-h3:before{
+        content: "¿Tienes un proyecto web en mente?";
+    }
+
+    .sobre-mi-p1:before{
+        content: "Si estás aquí es porque necesitas ampliar el alcance de tu negocio, necesitas vender más, tener más clientes. Sé que estás buscando soluciones efectivas para tener presencia en internet donde todo está pasando,  pero te has encontrado con un sinfín de información, cursos de pago, e-books gratuitos y mucha, quizás demasiada información que te dejan con mas dudas que respuestas.";
+    }
+
+    .sobre-mi-p2:before{
+        content: "Sé que no es fácil. Pero lo bueno es que estás aquí.";
+    }
+
+    .sobre-mi-p3:before{
+        content: "Hola, soy Leon Sebastian y me encanta el desarrollo web y cómo se pueden crear herramientas poderosas que ayuden a las personas a encontrar lo que necesitan.";
+    }
+
+    .sobre-mi-img{
+        margin-top: 2rem;
+        padding-top: 2rem;
+    }
+
+}
